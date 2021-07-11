@@ -26,7 +26,7 @@ Just place `ddgr_search.sh` script somewhere in your system PATH.
 
 ### :feet: Usage
 
-https://user-images.githubusercontent.com/46817915/125207906-b3bcc800-e265-11eb-963b-c34dca17716d.mp4
+https://user-images.githubusercontent.com/46817915/125208524-65112d00-e269-11eb-8c2a-b6471e346f89.mp4
 
 Trigger `rofi-ddgr` by running:
 
