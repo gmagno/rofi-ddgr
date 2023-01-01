@@ -25,12 +25,12 @@ echo -en "\0prompt\x1fddgr\n"
 echo -en "\0delim\x1f;"
 
 # Check current state and act accordingly
-if [ "$ROFI_RETV" -eq "1" ]; then
+if [[ "$ROFI_RETV" -eq "1" ]]; then
     # An entry was selected, so just open the browser
     # Using python for compatibility purposes, across OSes
     coproc ( python -m webbrowser "$ROFI_INFO"  > /dev/null  2>&1 ) || true
 fi
-if [ "$ROFI_RETV" -eq "2" ]; then
+if [[ "$ROFI_RETV" -eq "2" ]]; then
 # The search box was populated and returned. Trigger the search engine!
 # Using printf to escape "$@" which might contain special characters like `!`
 ddgr -n5 -x -C --json $(printf '%q' "$@") | python3 <(cat<< EOF
