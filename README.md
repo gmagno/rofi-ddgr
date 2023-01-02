@@ -22,7 +22,7 @@ They need to be installed in your system and available in the PATH.
 
 ### :package: Installation
 
-Just place `ddgr_search.sh` script somewhere in your system PATH.
+Just place `ddgr_search.py` script somewhere in your system PATH.
 
 ### :feet: Usage
 
@@ -31,7 +31,7 @@ https://user-images.githubusercontent.com/46817915/125208524-65112d00-e269-11eb-
 Trigger `rofi-ddgr` by running:
 
 ```bash
-rofi -lines 5 -eh 3 -show ddgrsearch -modi "ddgrsearch:ddgr_search.sh"
+rofi -lines 5 -eh 3 -show ddgrsearch -modi "ddgrsearch:ddgr_search.py"
 ```
 
 or add a key binding on your window manager to trigger it.
